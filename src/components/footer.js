@@ -236,4 +236,9 @@ export default function Footer() {
           </div>
           <div>
             <img src={Visa} alt="facebook" className="w-12 h-6" />
-     
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

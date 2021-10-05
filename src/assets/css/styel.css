@@ -24,3 +24,10 @@
   height: 635px;
   overflow-y: scroll;
 }
+.vandorFottermanu {
+  text-transform: capitalize;
+}
+.vandorFottermanu:hover {
+  text-decoration: none;
+  color: #fff;
+}

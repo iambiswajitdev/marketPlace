@@ -6,15 +6,6 @@ import { logoImg } from "../../utils/statickData";
 import { Link } from "react-router-dom";
 
 const VendorLogin = () => {
-  const vendorLogin =  () => {
-    try{
-      const res = fetch("https://api.anandroy.com/api/sellers");
-      console.log("Res",res );
-    }catch (error){
-      console.log("Error", error);
-    }
-
-
   return (
     <>
       <div className="vendorLogin sm:py-12">
@@ -114,4 +105,16 @@ const VendorLogin = () => {
                           </span>
                         </button>
                       </div>
-                 
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+    </>
+  );
+};
+
+export default VendorLogin;
