@@ -1,0 +1,26 @@
+.vendorLogin {
+  height: 100vh;
+  background-image: url("../images/login.png");
+  overflow-y: hidden;
+}
+.vendorLoginArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.vendorHeading {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.vendorBtn {
+  background-color: #379683 !important;
+  width: 200px;
+  padding: 10px 0 !important;
+  color: #fff !important;
+}
+.registre {
+  height: 635px;
+  overflow-y: scroll;
+}
