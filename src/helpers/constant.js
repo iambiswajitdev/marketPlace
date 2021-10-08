@@ -11,3 +11,5 @@ export const CATEGORY = `${URL}/api/categories`;
 export const FORGOT_PASSWORD = `${URL}/api/customer/forgot-password`;
 export const CHECK_PASSWORD_VERIFIED_CODE = `${URL}/api/customer/check-password-verified-code`;
 export const RESEND_VERIFICATION_CODE = `${URL}/api/customer/send-verification-code`;
+export const VENDOR_LOGIN_API = `${URL}/api/sellers`;
+export const VENDOR_DASHBOARD_REPORT = `${URL}/api/sellers`;

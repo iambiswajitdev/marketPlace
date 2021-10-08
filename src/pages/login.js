@@ -209,7 +209,7 @@ export default function Login() {
               loading={loading}
             >
               Login
-              <div className="transform -rotate-90 ml-2 loginArrow ">
+              <div className="transform -rotate-90 ml-2 loginArrow">
                 <ArrowDownward className="animate-bounce" fontSize={"small"} />
               </div>
             </Button>

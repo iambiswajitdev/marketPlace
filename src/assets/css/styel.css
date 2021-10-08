@@ -1,7 +1,5 @@
 .vendorLogin {
-  height: 100vh;
   background-image: url("../images/login.png");
-  overflow-y: hidden;
 }
 .vendorLoginArea {
   display: flex;
@@ -30,4 +28,9 @@
 .vandorFottermanu:hover {
   text-decoration: none;
   color: #fff;
+}
+.myContainer {
+  width: 1140px;
+  float: left;
+  margin: auto;
 }

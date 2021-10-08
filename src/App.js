@@ -26,6 +26,7 @@ import Cart from "./pages/cart";
 import SingleProduct from "./pages/product/singleProduct";
 import Wishlist from "./pages/user/wishlist";
 import VendorRegister from "./pages/vendor/register";
+import DashBoard from "./pages/vendor/dashBoard";
 
 function App() {
   const dispatch = useDispatch();
@@ -116,6 +117,9 @@ function App() {
           <MegaMenu />
           <SingleProduct />
           <Footer />
+        </Route>
+        <Route path="/vendor/dashBoard">
+          <DashBoard />
         </Route>
       </Switch>
     </Router>

@@ -33,6 +33,25 @@ export async function register_customer(data) {
   }
 }
 
+export const vendor_login = async () => {
+  try {
+    const url = c.VENDOR_LOGIN_API;
+    const res = await axios.post(url);
+    console.log("Vandor", res);
+  } catch (error) {
+    console.log("Error", error);
+  }
+};
+export const vendor_dashBoard_Report = async () => {
+  try {
+    const url = c.VENDOR_DASHBOARD_REPORT;
+    const res = await axios.post(url);
+    console.log("VandorDashBordReport", res);
+  } catch (error) {
+    console.log("Error", error);
+  }
+};
+
 export async function customer_email_verification(data) {
   try {
     let url = c.CUSTOMER_EMAIL_VERIFICATION;

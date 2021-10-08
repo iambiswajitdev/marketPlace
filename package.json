@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.15",
     "@material-ui/core": "^4.11.3",
     "@material-ui/icons": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.9",
@@ -13,6 +14,7 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
+    "react-fontawesome": "^1.7.1",
     "react-icons": "^4.2.0",
     "react-lottie": "^1.2.3",
     "react-mega-menu": "^1.0.1",

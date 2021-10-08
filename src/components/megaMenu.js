@@ -69,7 +69,7 @@ export default function MegaMenu() {
               <div className="col-span-2 my-auto">
                 <Button2>My Account</Button2>
               </div>
-              <div className="col-span-6">
+              {/* <div className="col-span-6">
                 {state.isAuthenticated ? (
                   <Link to="/account">
                     <Button
@@ -93,7 +93,7 @@ export default function MegaMenu() {
                     </Button>
                   </Link>
                 )}
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
