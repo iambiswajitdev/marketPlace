@@ -81,7 +81,7 @@ export default function Footer() {
             <Link className="vandorFottermanu" to="/vendor/register">
               <div>vendor registration</div>
             </Link>
-            <Link className="vandorFottermanu" to="/vendor/dashBoard">
+            <Link className="vandorFottermanu" to="/vendor/dashboard">
               <div>vendor DashBord</div>
             </Link>
           </div>

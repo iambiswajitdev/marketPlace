@@ -27,6 +27,8 @@ import SingleProduct from "./pages/product/singleProduct";
 import Wishlist from "./pages/user/wishlist";
 import VendorRegister from "./pages/vendor/register";
 import DashBoard from "./pages/vendor/dashBoard";
+import ProdactListing from "./pages/vendor/prodact-list";
+import OrderListing from "./pages/vendor/order-list";
 
 function App() {
   const dispatch = useDispatch();
@@ -120,6 +122,15 @@ function App() {
         </Route>
         <Route path="/vendor/dashBoard">
           <DashBoard />
+          <Footer />
+        </Route>
+        <Route path="/vendor/prodact-list">
+          <ProdactListing />
+          <Footer />
+        </Route>
+        <Route path="/vendor/order-list">
+          <OrderListing />
+          <Footer />
         </Route>
       </Switch>
     </Router>

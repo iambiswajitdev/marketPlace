@@ -5,12 +5,10 @@ import {
   Favorite,
   KeyboardArrowDown,
   LocalOffer,
-  Person,
   PinDrop,
   ShoppingCart,
 } from "@material-ui/icons";
 
-import Button from "./button";
 import Button2 from "./button2";
 
 import { BiGitCompare } from "react-icons/bi";
@@ -99,10 +97,9 @@ export default function MegaMenu() {
         </div>
       </div>
 
-      <div className="w-full py-10 px-24 flex flex-row justify-between">
+      <div className="w-full py-5 px-24 flex flex-row justify-between">
         <div className="uppercase text-sm text-gray-500 my-auto w-1/4">
           <Link to="/">
-            {" "}
             <img src={Logo} alt="logo" />
           </Link>
         </div>
@@ -217,6 +214,11 @@ export default function MegaMenu() {
         <div className="w-3/4 flex flex-row gap-5">
           <div className="w-4/6 relative mx-auto text-gray-600 my-auto flex flex-row justify-evenly gap-1">
             <div className="my-auto flex-1">
+              {/* {
+                if () {
+                  
+                }
+              } */}
               <Link to="/">
                 <Button2>
                   <span className="text-gray-800 text-sm">Home</span>
@@ -227,6 +229,15 @@ export default function MegaMenu() {
               <Button2>
                 <span className="text-gray-800 text-sm">Shop</span>
               </Button2>
+            </div>
+            <div className="my-auto flex-1">
+              <Link to="/vendor/prodact-list">
+                <Button2>
+                  <span className="text-gray-800 capitalize text-sm">
+                    prodact listing
+                  </span>
+                </Button2>
+              </Link>
             </div>
             <div className="my-auto flex-1">
               <Button2>

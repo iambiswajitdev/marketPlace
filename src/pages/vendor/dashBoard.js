@@ -1,5 +1,6 @@
 import MegaMenu from "../../components/megaMenu";
 import * as API from "../../helpers/api";
+import DashBoardTable from "./dashBoardTable";
 
 const DashBoard = () => {
   // const dashBoardReport = async () => {
@@ -58,28 +59,8 @@ const DashBoard = () => {
           </div>
         ))}
       </div>
-      <div className="w-full px-24 py-10 flex justify-between gap-4">
-        <table className="w-full">
-          <thead>
-            <tr className="bg-white py-5 block">
-              <th className="px-5 capitalize">Product Name</th>
-              <th className="px-5 capitalize">Product Amount</th>
-              <th className="px-5 capitalize">Customer Name</th>
-              <th className="px-5 capitalize">Customer Mobile No</th>
-              <th className="px-5 capitalize">Delivery Address</th>
-              <th className="px-5 capitalize">Action</th>
-              <th className="px-5 capitalize">Payment Status</th>
-            </tr>
-          </thead>
-          <tbody>
-            {/* <tr className="w-full">
-              <td className="border px-4 py-2 capitalize">prodact</td>
-              <td className="border px-4 py-2 capitalize">prodact</td>
-              <td className="border px-4 py-2 capitalize">prodact</td>
-              <td className="border px-4 py-2 capitalize">prodact</td>
-            </tr> */}
-          </tbody>
-        </table>
+      <div className="w-full px-24 py-10">
+        <DashBoardTable />
       </div>
     </>
   );
